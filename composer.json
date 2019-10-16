@@ -1,0 +1,27 @@
+{
+    "name": "rerootagency/es-laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Domagoj Šimić",
+            "email": "domagoj.simic.reroot@gmail.com"
+        }
+    ],
+    "require": {
+        "laravel/framework": "5.5.*",
+        "rerootagency/es-php": "^1.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "RerootAgency\\LaravelElasticsearch\\": "src/"
+      }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RerootAgency\\LaravelElasticsearch\\ServiceProvider"
+            ]
+        }
+    }
+}
