@@ -5,5 +5,5 @@ use Illuminate\Support\Facades\Facade;
 
 class ElasticSearch extends Facade
 {
-    protected static function getFacadeAccessor() { return 'es-laravel'; }
+    protected static function getFacadeAccessor() { return 'es-laravel.manager'; }
 }

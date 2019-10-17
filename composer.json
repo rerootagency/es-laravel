@@ -2,6 +2,7 @@
     "name": "rerootagency/es-laravel",
     "type": "library",
     "license": "MIT",
+    "description": "Driver manager for rerootagency/es-php client.",
     "authors": [
         {
             "name": "Domagoj Šimić",
@@ -9,8 +10,8 @@
         }
     ],
     "require": {
-        "laravel/framework": "5.5.*",
-        "rerootagency/es-php": "^1.0"
+        "illuminate/support": "5.5.*",
+        "rerootagency/es-php": "1.0.1"
     },
     "autoload": {
       "psr-4": {
